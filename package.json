@@ -1,0 +1,24 @@
+{
+    "name": "Quickstart-Express",
+    "version": "0.0.0",
+    "main": "app.js",
+    
+    "dependencies": {
+        "express": "4.13.3",
+        "path": "0.11.14",
+        "body-parser": "1.9.2",
+        "jade": "~1.11.0"
+    },
+    "devDependencies": {
+        "gulp": "*"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"No test available for this app ...\" && exit 0",
+        "posttest": "./node_modules/.bin/gulp build"
+    },
+    "engine": {
+        "node": "*",
+        "npm": "*"
+    }
+}

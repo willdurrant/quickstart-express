@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Current NODE_ENV set to #{current_node_env}
+  p Here's a list of changes as I develop this scaffolding ePaaS project
+    ul
+      for change in changes
+        li #{change}
