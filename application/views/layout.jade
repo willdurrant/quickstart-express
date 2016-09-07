@@ -3,5 +3,23 @@ html
   head
     title= title
     link(rel='stylesheet', href='stylesheets/style.css')
-  body
+
+    base(href="/")
+
+  body(ng-app="hack-app")
     block content
+
+
+    // 3rd Party JS Libraries
+    script(src="/lib/angular/angular.min.js")
+    script(src="/lib/angular/angular-ui-router.min.js")
+
+    //angular:router
+    script(src="/js/main.js")
+
+    //angular:controllers
+    script(src="/js/controllers/controller1.js")
+
+    //angular:services
+    script(src="/js/services/srv1.js")
+
